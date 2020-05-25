@@ -1,14 +1,4 @@
 <?php
-//Para usar esse script siga os seguinte passos:
-//1 - Acesse o módulo de pesquisa no sigaa
-//2 - Acesse a página https://sig.unilab.edu.br/sigaa/pesquisa/projetoPesquisa/buscarProjetos.do
-//3 - Faça a busca pelo edital 
-//4 - Através do ícone de lupa(visualizar arquivo) abra a página do projeto
-//5 - Salve todos os projetos (Ctrl+s) no formato html, em uma só pasta local
-//6 - Execute esse script através do comando>php index.php --pasta local-da-pasta
-//Esse script criará uma planilha na raiz desse projeto
-
-
 $val = getopt(null, ["pasta:"]);
 
 if(!isset($val['pasta'])){
