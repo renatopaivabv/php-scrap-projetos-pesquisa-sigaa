@@ -1,0 +1,14 @@
+{
+    "name": "renpv/scrap-projetos-php",
+    "description": "Script criado para gerar planilhas de dados através de páginas html salvas no PC local",
+    "authors": [
+        {
+            "name": "renatopaivabv",
+            "email": "renatopaivabv@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.12",
+        "imangazaliev/didom": "^1.16"
+    }
+}
